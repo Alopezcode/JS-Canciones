@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/canciones.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>lista de canciones</title>
 </head>
 
 <body>
     <h1>selector de canciones</h1>
-    <script src="canciones.js"></script>
+    <button id="ver">Ver canciones</button>
+    <input type="number" id="numero" min="1" max="5" placeholder="Número de canción">
+    <button id="seleccionar">Seleccionar por número</button>
+    <button id="aleatoria">Selección aleatoria</button>
+    <button id="salir">Salir</button>
+    <div id="resultado"></div>
     
 </body>
 </html>
